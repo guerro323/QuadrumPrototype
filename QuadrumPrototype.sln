@@ -1,0 +1,44 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadrumPrototype", "QuadrumPrototype.csproj", "{D2B9589F-068E-4012-935C-943C9FBB0067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "revghost.v2", "..\..\..\Tests\revghost.v2\revghost.v2\revghost.v2.csproj", "{AB2461A0-2665-44B2-A968-5A4DABF2A591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "revghost.flecs", "..\..\..\Tests\revghost2\revghost.flecs\revghost.flecs.csproj", "{2D080AD4-D0C6-4108-A6E1-9C6C27D00690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "revghost.flecs.SourceGenerator", "..\..\..\Tests\revghost2\revghost.flecs.SourceGenerator\revghost.flecs.SourceGenerator.csproj", "{DF483B2B-EC22-412F-8482-37E33BEEFB3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2B9589F-068E-4012-935C-943C9FBB0067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B9589F-068E-4012-935C-943C9FBB0067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B9589F-068E-4012-935C-943C9FBB0067}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{D2B9589F-068E-4012-935C-943C9FBB0067}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{D2B9589F-068E-4012-935C-943C9FBB0067}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{D2B9589F-068E-4012-935C-943C9FBB0067}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		
+		{AB2461A0-2665-44B2-A968-5A4DABF2A591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2461A0-2665-44B2-A968-5A4DABF2A591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2461A0-2665-44B2-A968-5A4DABF2A591}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2461A0-2665-44B2-A968-5A4DABF2A591}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2461A0-2665-44B2-A968-5A4DABF2A591}.ExportRelease|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2461A0-2665-44B2-A968-5A4DABF2A591}.ExportRelease|Any CPU.Build.0 = Debug|Any CPU
+		{2D080AD4-D0C6-4108-A6E1-9C6C27D00690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D080AD4-D0C6-4108-A6E1-9C6C27D00690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D080AD4-D0C6-4108-A6E1-9C6C27D00690}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D080AD4-D0C6-4108-A6E1-9C6C27D00690}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{2D080AD4-D0C6-4108-A6E1-9C6C27D00690}.ExportRelease|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D080AD4-D0C6-4108-A6E1-9C6C27D00690}.ExportRelease|Any CPU.Build.0 = Debug|Any CPU
+		{DF483B2B-EC22-412F-8482-37E33BEEFB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF483B2B-EC22-412F-8482-37E33BEEFB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF483B2B-EC22-412F-8482-37E33BEEFB3E}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF483B2B-EC22-412F-8482-37E33BEEFB3E}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{DF483B2B-EC22-412F-8482-37E33BEEFB3E}.ExportRelease|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF483B2B-EC22-412F-8482-37E33BEEFB3E}.ExportRelease|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal

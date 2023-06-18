@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://5dud3k56q3js"]
+
+[ext_resource type="Script" path="res://BonjourScript.cs" id="1_jpv04"]
+[ext_resource type="Texture2D" uid="uid://dl6fhr63ytbub" path="res://icon.svg" id="2_0w5f4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wv77t"]
+albedo_texture = ExtResource("2_0w5f4")
+albedo_texture_msdf = true
+
+[sub_resource type="BoxMesh" id="BoxMesh_cco57"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_jpv04")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("StandardMaterial3D_wv77t")
+mesh = SubResource("BoxMesh_cco57")
